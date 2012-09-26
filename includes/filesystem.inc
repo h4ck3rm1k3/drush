@@ -532,7 +532,7 @@ function _drush_delete_registered_files() {
         drush_delete_dir($file, TRUE);
       }
       else {
-        @chmod($dir, 0777); // Make file writeable
+        @chmod($file, 0777); // Make file writeable
         unlink($file);
       }
     }
