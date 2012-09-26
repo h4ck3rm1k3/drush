@@ -1,5 +1,6 @@
 <?php
 
+
 /**
  * @defgroup outputfunctions Process output text.
  * @{
@@ -213,6 +214,7 @@ function drush_html_to_text($html, $allowed_tags = NULL) {
  * @return $tbl
  *   Use $tbl->getTable() to get the output from the return value.
  */
+
 function drush_print_table($rows, $header = FALSE, $widths = array(), $handle = NULL) {
   $tbl = _drush_format_table($rows, $header, $widths);
   $output = $tbl->getTable();
