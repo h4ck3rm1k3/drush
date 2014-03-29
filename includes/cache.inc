@@ -291,7 +291,7 @@ interface DrushCacheInterface {
    * @return
    *   TRUE if the cache bin specified is empty.
    */
-  function isEmpty();
+  function isEmpty($dir);
 }
 
 /**

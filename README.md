@@ -20,6 +20,12 @@ Drush 3       | 3.x | 5.2.0+ | D5, D6                     | Unsupported
 
 Drush comes with a full test suite powered by [PHPUnit](https://github.com/sebastianbergmann/phpunit). Each commit gets tested by the awesome [Travis.ci continuous integration service](https://travis-ci.org/drush-ops/drush).
 
+INSTALLATION
+------------
+git clone https://github.com/h4ck3rm1k3/drush.git
+composer/bin/composer  install
+./drush
+
 USAGE
 -----------
 
