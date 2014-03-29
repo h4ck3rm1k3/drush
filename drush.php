@@ -68,12 +68,6 @@ function drush_main() {
   return $return;
 }
 
-/**
- * Bootstraps Drush and dispatches the command.
- *
- * @return mixed
- *   Whatever the given command returns.
- */
 function _drush_bootstrap_and_dispatch() {
   $phases = _drush_bootstrap_phases(FALSE, TRUE);
 
